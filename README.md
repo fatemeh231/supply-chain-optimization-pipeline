@@ -81,33 +81,6 @@ Power BI Dashboard
 
 ---
 
-## 📁 Project Structure
-
-```
-supply-chain-optimization-pipeline/
-├── data/
-│   ├── raw/
-│   │   └── supply chain logisitcs problem.xlsx
-│   └── processed/
-│       └── supply_chain_master.parquet
-│
-├── src/
-│   ├── __init__.py
-│   ├── config.py          # Column mappings & settings
-│   └── loader.py          # Complete ETL logic
-│
-├── notebooks/
-│   └── 01_data_exploration.ipynb
-│
-├── output/
-│   └── supply_chain_dashboard.pbix
-│
-├── main.py                # Entry point
-├── requirements.txt
-└── README.md
-```
-
----
 
 ## 🛠️ Technologies Used
 
